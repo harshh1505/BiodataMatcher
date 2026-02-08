@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Matcher 3000 💀</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Bungee&family=DM+Serif+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+
+<body>
+    <div id="bgGlow" class="bg-glow"></div>
+    <div class="container">
+        <header>
+            <h1 class="main-title">Biodata Matcher 3000 💀</h1>
+            <p class="subtitle">Because Honesty is the Best Policy (That No One Asked For)</p>
+            <div class="disclaimer">
+                ⚠️ <strong>Disclaimer:</strong> Purely for entertainment. Don't send this to your relatives. Seriously.
+                We roast the system, not you (okay, maybe you a little).
+            </div>
+        </header>
+
+        <div id="formSection">
+            <!-- Profile A -->
+            <div class="form-section">
+                <h2 class="section-header">🔥 Profile A - The Groom/Bride</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="nameA" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" id="ageA" placeholder="25">
+                    </div>
+                    <div class="form-group">
+                        <label>Height (in feet)</label>
+                        <input type="text" id="heightA" placeholder="5.8">
+                    </div>
+                    <div class="form-group">
+                        <label>Complexion</label>
+                        <select id="complexionA">
+                            <option value="">Select</option>
+                            <option value="fair">Fair</option>
+                            <option value="wheatish">Wheatish</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Education</label>
+                        <input type="text" id="educationA" placeholder="B.Tech, MBA, etc.">
+                    </div>
+                    <div class="form-group">
+                        <label>Profession</label>
+                        <input type="text" id="professionA" placeholder="Software Engineer">
+                    </div>
+                    <div class="form-group">
+                        <label>Annual Package (in LPA)</label>
+                        <input type="number" id="packageA" placeholder="10">
+                    </div>
+                    <div class="form-group">
+                        <label>Location</label>
+                        <input type="text" id="locationA" placeholder="Mumbai, Bangalore, etc.">
+                    </div>
+                    <div class="form-group">
+                        <label>Family Type</label>
+                        <select id="familyTypeA">
+                            <option value="">Select</option>
+                            <option value="nuclear">Nuclear</option>
+                            <option value="joint">Joint</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Hobbies</label>
+                        <input type="text" id="hobbiesA" placeholder="Reading, traveling, music">
+                    </div>
+                    <div class="form-group">
+                        <label>Habits</label>
+                        <select id="habitsA">
+                            <option value="">Select</option>
+                            <option value="neither">Neither drinking nor smoking</option>
+                            <option value="social">Social drinker</option>
+                            <option value="regular">Regular drinker/smoker</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Manglik Status</label>
+                        <select id="manglikA">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="dontcare">Don't Care</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Expected Partner Salary (in LPA)</label>
+                        <input type="number" id="expectedSalaryA" placeholder="15">
+                    </div>
+                    <div class="form-group">
+                        <label>Willing to Relocate?</label>
+                        <select id="relocateA">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="maybe">Maybe</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-top: 1.5rem;">
+                    <label>Partner Requirements</label>
+                    <textarea id="requirementsA"
+                        placeholder="Must be fair, homely yet modern, well-educated..."></textarea>
+                </div>
+            </div>
+
+            <!-- Profile B -->
+            <div class="form-section">
+                <h2 class="section-header">💥 Profile B - The Groom/Bride</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="nameB" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" id="ageB" placeholder="23">
+                    </div>
+                    <div class="form-group">
+                        <label>Height (in feet)</label>
+                        <input type="text" id="heightB" placeholder="5.4">
+                    </div>
+                    <div class="form-group">
+                        <label>Complexion</label>
+                        <select id="complexionB">
+                            <option value="">Select</option>
+                            <option value="fair">Fair</option>
+                            <option value="wheatish">Wheatish</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Education</label>
+                        <input type="text" id="educationB" placeholder="B.Tech, MBA, etc.">
+                    </div>
+                    <div class="form-group">
+                        <label>Profession</label>
+                        <input type="text" id="professionB" placeholder="Software Engineer">
+                    </div>
+                    <div class="form-group">
+                        <label>Annual Package (in LPA)</label>
+                        <input type="number" id="packageB" placeholder="8">
+                    </div>
+                    <div class="form-group">
+                        <label>Location</label>
+                        <input type="text" id="locationB" placeholder="Delhi, Pune, etc.">
+                    </div>
+                    <div class="form-group">
+                        <label>Family Type</label>
+                        <select id="familyTypeB">
+                            <option value="">Select</option>
+                            <option value="nuclear">Nuclear</option>
+                            <option value="joint">Joint</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Hobbies</label>
+                        <input type="text" id="hobbiesB" placeholder="Cooking, shopping, yoga">
+                    </div>
+                    <div class="form-group">
+                        <label>Habits</label>
+                        <select id="habitsB">
+                            <option value="">Select</option>
+                            <option value="neither">Neither drinking nor smoking</option>
+                            <option value="social">Social drinker</option>
+                            <option value="regular">Regular drinker/smoker</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Manglik Status</label>
+                        <select id="manglikB">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="dontcare">Don't Care</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Expected Partner Salary (in LPA)</label>
+                        <input type="number" id="expectedSalaryB" placeholder="20">
+                    </div>
+                    <div class="form-group">
+                        <label>Willing to Relocate?</label>
+                        <select id="relocateB">
+                            <option value="">Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                            <option value="maybe">Maybe</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-top: 1.5rem;">
+                    <label>Partner Requirements</label>
+                    <textarea id="requirementsB"
+                        placeholder="Should be settled abroad, earning well, good family..."></textarea>
+                </div>
+            </div>
+
+            <button class="roast-button" onclick="generateRoast()">
+                Roast These Biodatas! 🔥
+            </button>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results" class="results"></div>
+    </div>
+
+    <script src="comments.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
