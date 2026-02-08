@@ -141,6 +141,16 @@ function generateIndividualRoasts(profile, label) {
         roasts.push(`📋 "Settled abroad" mandatory - Green card > Love story. We respect the honesty though!`);
     }
 
+    // Regional Roasts
+    const locationLower = profile.location.toLowerCase();
+    const cityKeys = Object.keys(COMMENTS_DATABASE.regionalRoasts);
+    for (const city of cityKeys) {
+        if (locationLower.includes(city)) {
+            roasts.push(getRandom(COMMENTS_DATABASE.regionalRoasts[city]));
+            break;
+        }
+    }
+
     // Default roasts if none triggered
     if (roasts.length === 0) {
         roasts.push(`✨ Surprisingly normal biodata! Are you sure you filled this correctly? This is too reasonable for arranged marriage!`);

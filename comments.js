@@ -421,5 +421,50 @@ const COMMENTS_DATABASE = {
             "\"Everything is good, but he's a 'writer'. So he'll be poor but with 'deep' thoughts?\" 📚",
             "\"Everything is perfect, but he doesn't like tea. Who doesn't like tea?! Scandalous!\" ☕"
         ]
+    },
+    regionalRoasts: {
+        mumbai: [
+            "🏙️ Mumbai native - You'll spend 4 hours in local trains just to meet for a 20-min coffee. That's true commitment.",
+            "🏠 Lives in Mumbai - You're basically looking for a partner with enough space for a 1BHK that costs more than a private island.",
+            "🚈 'Mumbaikar' - Your personality is basically 80% struggle and 20% Vada Pav. Honestly, we respect it.",
+            "🚗 Thinks a 10km commute in 2 hours is 'normal'. Beta, your patience is elite, but your logic is missing."
+        ],
+        delhi: [
+            "🚙 Delhi vibe - 'Tu jaanta hai mera baap kaun hai?' energy is strong here. We hope the partner knows too.",
+            "🧥 Delhi native - You probably have more winter jackets than actual friends. Show-off level: High.",
+            "🗣️ Delhi directness - You're not being 'honest', you're being a human loudspeaker. Tone it down, ji!",
+            "🍽️ Thinks the only real food in the world is North Indian. Your taste buds are as narrow as your requirements."
+        ],
+        bangalore: [
+            "💻 Bangalore Tech Bro - Your wedding invitation will probably be an NFT or a GitHub repo. Keep the 'synergy' away.",
+            "🚦 Bangalore native - You'll be late to your own wedding because of Silk Board traffic. Plan 3 days in advance.",
+            "🌙 Early sleeper - You're in bed by 10 PM while the rest of the country is living. Boring, but healthy?",
+            "🏢 'Startup Founder' vibe - You don't want a marriage, you want a co-founder with a high valuation."
+        ],
+        hyderabad: [
+            "🍛 Hyderabad native - If the wedding doesn't have 5 types of Biryani, is it even a wedding? Priorities!",
+            "🐢 Hyderabad pace - You move slower than a government file. Life is not a 'light' tea break, wake up!",
+            "💻 Madhapur IT vibe - Another software engineer from Hyderabad. So original, it deserves its own boring award."
+        ],
+        pune: [
+            "😴 2 PM to 4 PM Pune nap - Your commitment to sleeping is more stable than your career. Don't call us during break time.",
+            "🎭 Pune culture vs IT - You think you're an intellectual, but you're just a techie who reads Wikipedia. Calm down.",
+            "📏 Puneri Patya energy - You have a list of 'No Entry' rules for your partner that's longer than the Constitution."
+        ],
+        chennai: [
+            "☕ Chennai native - Filters in your coffee, but zero filters in your traditional expectations. Dial it back, mama!",
+            "🎬 Cinema craze - If your partner doesn't like Thala or Thalapathy, the marriage is basically over before it starts.",
+            "🎓 Chennai intellectual - You judge people by their math marks from 10th grade. Beta, it's 2025, let it go."
+        ],
+        kolkata: [
+            "📖 Kolkata intellectual - You'll spend the whole honeymoon debating world politics and cinema. Poor partner.",
+            "🍬 Mishti lover - You're sweet, but your arguments are as complicated as a Satyajit Ray plot twist.",
+            "⚽ Football craze - You'll definitely skip the anniversary if East Bengal vs Mohun Bagan is on."
+        ],
+        ahmedabad: [
+            "💸 Ahmedabad native - Every conversation ends in 'Profit kitna hai?'. You don't want a partner, you want a portfolio.",
+            "🥨 Thinks everything needs sugar, even life. You're too sweet for your own good—literally.",
+            "🛍️ 'Business Mind' - You'll negotiate the dowry—sorry, 'gifts'—better than a Share Bazar shark."
+        ]
     }
 };
